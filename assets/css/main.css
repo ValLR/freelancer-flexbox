@@ -155,6 +155,10 @@ header .flexbox{
 	flex-direction: column;
 	padding:0 160px;
 }
+.input-box.flexbox{
+	flex-direction: column;
+	padding-bottom:90px;
+}
 .formulario.flexbox input{
 	height:70px;
 	border-left: 0px;
@@ -166,4 +170,20 @@ header .flexbox{
  	font-family: 'Raleway', sans-serif;
 	font-size:20px;
 	padding-left: 10px;
+}
+#contact button{
+	height: 70px;
+	width:90px;
+	background-color: #18BC9C;
+	color:white;
+	border:1px solid white;
+	border-radius: 10%;
+	font-size: 20px;
+	padding:0;
+}
+#contact button:hover{
+	background-color:whitesmoke;
+	color:#18BC9C;
+	font-weight: bolder;
+	cursor:pointer;
 }
