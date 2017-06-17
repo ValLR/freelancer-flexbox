@@ -65,3 +65,29 @@ header .flexbox{
  	flex-direction: row;
  	justify-content: space-around;
  }
+ /*about*/
+ .about.flexbox{
+ 	flex-direction: column;
+ }
+ #about .title{
+	text-align: center;
+	font-size: 27px;
+	font-weight: bolder;
+	padding-top: 50px;
+}
+#about .parrafo{
+	text-align: justify;
+	font-size: 18px;
+}
+.linea.about{
+ 	height: 5px;
+ 	width: 90px;
+ 	margin-top: 13px;
+ 	display: inline-block;
+ 	background-color: white;
+ }
+  .flexbox .about-title{
+ 	padding: 10px 100px;
+ 	text-align: center;
+ 	flex-direction: column;
+ }
