@@ -29,3 +29,6 @@ header .flexbox{
 	font-size:15px;
 }
 /*portfolio*/
+.portfolio .flexbox{
+	flex-direction: column;
+}
