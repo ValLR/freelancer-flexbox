@@ -1,0 +1,32 @@
+ * { margin: 0; padding: 0; }
+ * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ body{
+ 	font-family: 'Raleway', sans-serif;
+ }
+
+header{
+	position:fixed;
+	background-color:#31455A;
+	width:100%;
+	top:0;
+	color:whitesmoke;
+	font-weight:bolder;
+}
+header a{
+	text-align: center;
+	text-decoration:none;
+	color:whitesmoke;
+	font-size: 15px;
+}
