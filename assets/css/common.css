@@ -47,21 +47,14 @@ header h3{
 	background-color: #18BC9C;
 	color:white;
 }
-.linea{
- 	height: 5px;
- 	width: 10%;
- 	margin-top: -20px;
- 	background-color: white;
- 	display: inline-block;
- }
+
  /*portfolio*/
  #portfolio {
+	padding:150px 20px;
 	text-align: center;
-	padding-top:50px;
 	color: #333333; 
 	font-size: 27px;
 	font-weight: bolder;
-	height:800px;
 	background-color: white;
 
 }

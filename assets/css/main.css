@@ -20,6 +20,14 @@ header .flexbox{
 	flex-direction:row;
 	justify-content: space-between;
 }
+
+.linea.start{
+ 	height: 5px;
+ 	width: 10%;
+ 	margin-top: -20px;
+ 	display: inline-block;
+ 	background-color: white;
+ }
 /*home*/
 #home h1{
 	font-size: 30px;
@@ -29,6 +37,23 @@ header .flexbox{
 	font-size:15px;
 }
 /*portfolio*/
-.portfolio .flexbox{
+.portfolio.flexbox{
 	flex-direction: column;
 }
+.linea.portfolio{
+ 	height: 5px;
+ 	width: 90px;
+ 	margin-top: 13px;
+ 	display: inline-block;
+ 	background-color: black;
+ }
+
+ .flexbox .portfolio-text{
+ 	padding: 10px 100px;
+ 	text-align: center;
+ 	flex-direction: column;
+ }
+ .hr.flexbox{
+ 	flex-direction: row;
+ 	padding:0px 400px;
+ }
