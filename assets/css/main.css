@@ -20,3 +20,14 @@ header .flexbox{
 	flex-direction:row;
 	justify-content: space-between;
 }
+/*home*/
+#home h1{
+	font-size: 30px;
+	font-weight: bolder;
+}
+#home p{
+	font-size:15px;
+}
+.hr-font.flexbox{
+	display:flex;
+}

@@ -38,3 +38,10 @@ header h3{
 	font-size: 26px;
 	margin-top:8px;
 }
+/*home*/
+#home{
+	padding:150px 20px;
+	text-align: center;
+	background-color: #18BC9C;
+	color:white;
+}
