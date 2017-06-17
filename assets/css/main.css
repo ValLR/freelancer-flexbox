@@ -59,6 +59,7 @@ header .flexbox{
  }
 .gallery.flexbox{
 	flex-direction:column;
+	justify-content: space-between;
  }
  .row.flexbox{
  	flex-direction: row;
