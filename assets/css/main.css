@@ -68,10 +68,11 @@ header .flexbox{
  /*about*/
  .about.flexbox{
  	flex-direction: column;
+
  }
- #about .title{
+ #about .about-title{
 	text-align: center;
-	font-size: 27px;
+	font-size: 24px;
 	font-weight: bolder;
 	padding-top: 50px;
 }
@@ -93,8 +94,43 @@ header .flexbox{
  }
  .parrafo.flexbox{
  	justify-content: space-around;
- 	padding:10px 80px;
+ 	padding:10px 140px;
  }
  .parragraph{
  	padding:10px 30px;
  }
+ .button.flexbox{
+ 	justify-content: space-around;
+ }
+ .button button{
+	padding:10px 25px;
+	background-color: #18BC9C;
+	border:1.5px solid white;
+	color:white;
+	border-radius: 7px;
+	font-size: 20px;
+}
+ .button button:hover{
+	color: #18BC9C;
+	background-color: whitesmoke;
+	cursor: pointer;
+}
+/*contact*/
+ .contact.flexbox{
+ 	flex-direction: column;
+
+ }
+.linea.contact{
+ 	height: 5px;
+ 	width: 90px;
+ 	margin-top: 13px;
+ 	display: inline-block;
+ 	background-color: black;
+ }
+
+ .flexbox .contact-title{
+ 	text-align: center;
+	font-size: 24px;
+	font-weight: bolder;
+	padding-top: 50px;
+}
