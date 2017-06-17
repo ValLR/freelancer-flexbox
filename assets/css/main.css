@@ -3,6 +3,7 @@ header a{
 	text-decoration:none;
 	color:whitesmoke;
 	font-size: 15px;
+	padding:10px;
 }
 header a:hover{
 	color:#18BC9C;
@@ -11,6 +12,11 @@ header h3{
 	font-size: 26px;
 	margin-top:8px;
 }
-.header .flexbox{
-	
+div.links{
+	margin-top:6px;
+}
+header .flexbox{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
 }

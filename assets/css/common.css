@@ -23,10 +23,18 @@ header{
 	top:0;
 	color:whitesmoke;
 	font-weight:bolder;
+	padding: 5px 60px;
 }
 header a{
 	text-align: center;
 	text-decoration:none;
 	color:whitesmoke;
 	font-size: 15px;
+}
+header a:hover{
+	color:#18BC9C;
+}
+header h3{
+	font-size: 26px;
+	margin-top:8px;
 }
