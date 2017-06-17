@@ -28,6 +28,10 @@ header .flexbox{
 #home p{
 	font-size:15px;
 }
-.hr-font.flexbox{
-	display:flex;
-}
+.linea{
+ 	height: 5px;
+ 	width: 10%;
+ 	margin-top: -20px;
+ 	background-color: white;
+ 	display: inline-block;
+ }
