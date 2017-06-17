@@ -50,7 +50,7 @@ header h3{
 
  /*portfolio*/
  #portfolio {
-	padding:150px 20px;
+	padding:90px 20px 50px 20px;
 	text-align: center;
 	color: #333333; 
 	font-size: 27px;
@@ -62,4 +62,10 @@ img{
 	height:30%;
 	width:33%;
 	padding: 10px;
+}
+/*about*/
+#about{
+	background-color:#18BC9C;
+	color:white; 
+	padding: 50px 20px;
 }
