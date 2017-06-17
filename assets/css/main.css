@@ -116,6 +116,9 @@ header .flexbox{
 	cursor: pointer;
 }
 /*contact*/
+#contact{
+	padding:0 0 100px 0;
+}
  .contact.flexbox{
  	flex-direction: column;
  	padding: 100px;
