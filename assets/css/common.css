@@ -77,3 +77,12 @@ img{
 footer{
 	background-color: #2C3E50;
 }
+.principal{
+	padding: 50px 100px;
+	color:white;
+}
+.copyright{
+	background-color: #233140;
+	padding: 25px 500px;
+	color:white;
+}
