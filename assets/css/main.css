@@ -57,3 +57,10 @@ header .flexbox{
  	flex-direction: row;
  	padding:0px 400px;
  }
+.gallery.flexbox{
+	flex-direction:column;
+ }
+ .row.flexbox{
+ 	flex-direction: row;
+ 	justify-content: space-around;
+ }
